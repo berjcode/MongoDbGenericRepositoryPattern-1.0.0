@@ -1,6 +1,5 @@
 # Features
 
-[![MIT License][license-shield]][license-url]
 
 "Hello, I would like to talk about the features of MongoDbGenericRepositoryPattern, a NuGet package I wrote."
 
@@ -34,7 +33,7 @@ Errors are corrected as a result of feedback.
 }
 
 ```
-##Program.cs 
+## Program.cs 
 ```
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
@@ -47,7 +46,7 @@ builder.Services.AddSingleton<IDatabaseSettings>(sp =>
 ```
 ## Create Repository
 ```
-//Interface
+* Interface
     public interface IProductRepository :IRepository<Products>
     {
         void AddProduct(Products product);
@@ -55,7 +54,7 @@ builder.Services.AddSingleton<IDatabaseSettings>(sp =>
 
 
 
-  //Concrete  
+  *  Concrete  
 public class ProductRepository : MongoDbGenericRepository<Products>, IProductRepository
 {
     private readonly MongoDbContext _dbContext;
@@ -72,9 +71,11 @@ public class ProductRepository : MongoDbGenericRepository<Products>, IProductRep
     }
 }
 
-## Service
+
 ```
-     private readonly ICategoryRepository _categoryRepository;
+## Service
+
+    private readonly ICategoryRepository _categoryRepository;
     private readonly IMapper _mapper;
 
     public CategoryService(ICategoryRepository categoryRepository, IMapper mapper)
@@ -93,8 +94,9 @@ public class ProductRepository : MongoDbGenericRepository<Products>, IProductRep
 
 
 ```
-## Controller 
+
 ```
+## Controller 
   
     private readonly ICategoryService _categoryService;
 
@@ -122,8 +124,6 @@ public class ProductRepository : MongoDbGenericRepository<Products>, IProductRep
     * Generic Repository   
        
 
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/berjcode/GenericRepositoryPatternNugetPackageV1.0.1/blob/main/LICENSE
                                                                                                                       
    ###    By Abdullah Balikci - berjcode
 
