@@ -1,0 +1,12 @@
+C:\Users\abdbl\OneDrive\Masaüstü\Microservice\test\GenericMongoDbRepositoryPattern\bin\Debug\net7.0\GenericMongoDbRepositoryPattern.deps.json
+C:\Users\abdbl\OneDrive\Masaüstü\Microservice\test\GenericMongoDbRepositoryPattern\bin\Debug\net7.0\GenericMongoDbRepositoryPattern.dll
+C:\Users\abdbl\OneDrive\Masaüstü\Microservice\test\GenericMongoDbRepositoryPattern\bin\Debug\net7.0\GenericMongoDbRepositoryPattern.pdb
+C:\Users\abdbl\OneDrive\Masaüstü\Microservice\test\GenericMongoDbRepositoryPattern\obj\Debug\net7.0\GenericMongoDbRepositoryPattern.csproj.AssemblyReference.cache
+C:\Users\abdbl\OneDrive\Masaüstü\Microservice\test\GenericMongoDbRepositoryPattern\obj\Debug\net7.0\GenericMongoDbRepositoryPattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abdbl\OneDrive\Masaüstü\Microservice\test\GenericMongoDbRepositoryPattern\obj\Debug\net7.0\GenericMongoDbRepositoryPattern.AssemblyInfoInputs.cache
+C:\Users\abdbl\OneDrive\Masaüstü\Microservice\test\GenericMongoDbRepositoryPattern\obj\Debug\net7.0\GenericMongoDbRepositoryPattern.AssemblyInfo.cs
+C:\Users\abdbl\OneDrive\Masaüstü\Microservice\test\GenericMongoDbRepositoryPattern\obj\Debug\net7.0\GenericMongoDbRepositoryPattern.csproj.CoreCompileInputs.cache
+C:\Users\abdbl\OneDrive\Masaüstü\Microservice\test\GenericMongoDbRepositoryPattern\obj\Debug\net7.0\GenericMongoDbRepositoryPattern.dll
+C:\Users\abdbl\OneDrive\Masaüstü\Microservice\test\GenericMongoDbRepositoryPattern\obj\Debug\net7.0\refint\GenericMongoDbRepositoryPattern.dll
+C:\Users\abdbl\OneDrive\Masaüstü\Microservice\test\GenericMongoDbRepositoryPattern\obj\Debug\net7.0\GenericMongoDbRepositoryPattern.pdb
+C:\Users\abdbl\OneDrive\Masaüstü\Microservice\test\GenericMongoDbRepositoryPattern\obj\Debug\net7.0\ref\GenericMongoDbRepositoryPattern.dll

@@ -1,0 +1,48 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+    <PackageId>MongoDbGenericRepositoryPattern</PackageId>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>MongoDb Generic Repository Pattern </Title>
+    <Version>1.0.0</Version>
+    <Authors>berjcode</Authors>
+    <Company>vesperia</Company>
+    <Product>MongoDb Generic Repository Pattern </Product>
+    <Description>It is a package that I have prepared to make your transactions faster and easier.
+It will be supported with a dynamic structure in future versions.</Description>
+    <Copyright>berjcode</Copyright>
+    <PackageProjectUrl>https://github.com/berjcode/Microservice/tree/main</PackageProjectUrl>
+    <PackageIcon>clothing brand.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/berjcode/Microservice/tree/main</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>genericrepositorypattern mongodb</PackageTags>
+    <PackageReleaseNotes>Crud operations are available.</PackageReleaseNotes>
+    <NeutralLanguage>en-150</NeutralLanguage>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="favicon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\..\Downloads\clothing brand.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Bson" Version="2.20.0" />
+    <PackageReference Include="MongoDB.Driver" Version="2.20.0" />
+  </ItemGroup>
+
+</Project>

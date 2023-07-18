@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>MongoDbGenericRepositoryPattern</id>
+    <version>1.0.0</version>
+    <title>MongoDb Generic Repository Pattern</title>
+    <authors>berjcode</authors>
+    <icon>clothing brand.png</icon>
+    <readme>README.md</readme>
+    <projectUrl>https://github.com/berjcode/Microservice/tree/main</projectUrl>
+    <description>It is a package that I have prepared to make your transactions faster and easier.
+It will be supported with a dynamic structure in future versions.</description>
+    <releaseNotes>Crud operations are available.</releaseNotes>
+    <copyright>berjcode</copyright>
+    <tags>genericrepositorypattern mongodb</tags>
+    <repository type="git" url="https://github.com/berjcode/Microservice/tree/main" />
+    <dependencies>
+      <group targetFramework="net7.0">
+        <dependency id="MongoDB.Bson" version="2.20.0" exclude="Build,Analyzers" />
+        <dependency id="MongoDB.Driver" version="2.20.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <contentFiles>
+      <files include="any/net7.0/favicon.ico" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Users\abdbl\OneDrive\Masaüstü\Microservice\test\GenericMongoDbRepositoryPattern\bin\Debug\net7.0\GenericMongoDbRepositoryPattern.dll" target="lib\net7.0\GenericMongoDbRepositoryPattern.dll" />
+    <file src="C:\Users\abdbl\OneDrive\Masaüstü\Microservice\test\GenericMongoDbRepositoryPattern\favicon.ico" target="content\favicon.ico" />
+    <file src="C:\Users\abdbl\OneDrive\Masaüstü\Microservice\test\GenericMongoDbRepositoryPattern\favicon.ico" target="contentFiles\any\net7.0\favicon.ico" />
+    <file src="C:\Users\abdbl\Downloads\clothing brand.png" target="\clothing brand.png" />
+    <file src="C:\Users\abdbl\OneDrive\Masaüstü\Microservice\test\README.md" target="\README.md" />
+  </files>
+</package>
