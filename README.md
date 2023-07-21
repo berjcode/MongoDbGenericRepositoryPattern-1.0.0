@@ -1,6 +1,6 @@
 ## License
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg
 # Features
 
 # ![WebApp](https://github.com/berjcode/MongoDbGenericRepositoryPattern-1.0.0/blob/main/mongodb.png)
