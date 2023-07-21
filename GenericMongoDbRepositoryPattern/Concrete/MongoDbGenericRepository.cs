@@ -22,6 +22,18 @@ public class MongoDbGenericRepository<T> : IRepository<T>
     #endregion
 
     #region methods
+    public IQueryable<T> GetAllQueryable()
+    {
+        var data = _collection.AsQueryable();
+
+        return data;
+    }
+    public async Task<IQueryable<T>> GetAllQueryableAsync()
+    {
+        var data = _collection.AsQueryable();
+
+        return data;
+    }
     public T DeleteById(string id)
     {
         var objectId = ObjectId.Parse(id);
@@ -160,5 +172,19 @@ public class MongoDbGenericRepository<T> : IRepository<T>
 
         return entity;
     }
+
+    public async Task<bool> ExistsByIdAsync(string id, string type = "object")
+    {
+        object obejctId = null;
+        if (type == "guid")
+            obejctId = Guid.Parse(id);
+        else
+            obejctId = ObjectId.Parse(id);
+
+        var filter = Builders<T>.Filter.Eq("_id", obejctId);
+        var documentExists = await _collection.Find(filter).AnyAsync();
+        return documentExists;
+    }
+
     #endregion
 }

@@ -18,11 +18,12 @@ It will be supported with a dynamic structure in future versions.</Description>
     <PackageProjectUrl>https://github.com/berjcode/Microservice/tree/main</PackageProjectUrl>
     <PackageIcon>clothing brand.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <RepositoryUrl>https://github.com/berjcode/Microservice/tree/main</RepositoryUrl>
+    <RepositoryUrl>https://github.com/berjcode/MongoDbGenericRepositoryPattern-1.0.0</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageTags>genericrepositorypattern mongodb</PackageTags>
+    <PackageTags>genericrepositorypattern mongodb netcore fast pattern</PackageTags>
     <PackageReleaseNotes>Crud operations are available.</PackageReleaseNotes>
     <NeutralLanguage>en-150</NeutralLanguage>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -31,6 +32,10 @@ It will be supported with a dynamic structure in future versions.</Description>
 
   <ItemGroup>
     <None Include="..\..\..\..\..\Downloads\clothing brand.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\..\..\..\..\Downloads\LICENSE.txt">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>

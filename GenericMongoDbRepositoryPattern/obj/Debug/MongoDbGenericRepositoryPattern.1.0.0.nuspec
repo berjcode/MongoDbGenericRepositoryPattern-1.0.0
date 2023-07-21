@@ -5,6 +5,8 @@
     <version>1.0.0</version>
     <title>MongoDb Generic Repository Pattern</title>
     <authors>berjcode</authors>
+    <license type="file">LICENSE.txt</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
     <icon>clothing brand.png</icon>
     <readme>README.md</readme>
     <projectUrl>https://github.com/berjcode/Microservice/tree/main</projectUrl>
@@ -12,8 +14,8 @@
 It will be supported with a dynamic structure in future versions.</description>
     <releaseNotes>Crud operations are available.</releaseNotes>
     <copyright>berjcode</copyright>
-    <tags>genericrepositorypattern mongodb</tags>
-    <repository type="git" url="https://github.com/berjcode/Microservice/tree/main" />
+    <tags>genericrepositorypattern mongodb netcore fast pattern</tags>
+    <repository type="git" url="https://github.com/berjcode/MongoDbGenericRepositoryPattern-1.0.0" />
     <dependencies>
       <group targetFramework="net7.0">
         <dependency id="MongoDB.Bson" version="2.20.0" exclude="Build,Analyzers" />
@@ -29,6 +31,7 @@ It will be supported with a dynamic structure in future versions.</description>
     <file src="C:\Users\abdbl\OneDrive\Masaüstü\Microservice\test\GenericMongoDbRepositoryPattern\favicon.ico" target="content\favicon.ico" />
     <file src="C:\Users\abdbl\OneDrive\Masaüstü\Microservice\test\GenericMongoDbRepositoryPattern\favicon.ico" target="contentFiles\any\net7.0\favicon.ico" />
     <file src="C:\Users\abdbl\Downloads\clothing brand.png" target="\clothing brand.png" />
+    <file src="C:\Users\abdbl\Downloads\LICENSE.txt" target="\LICENSE.txt" />
     <file src="C:\Users\abdbl\OneDrive\Masaüstü\Microservice\test\README.md" target="\README.md" />
   </files>
 </package>

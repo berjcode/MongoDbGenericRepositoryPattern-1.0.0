@@ -4,6 +4,9 @@ namespace GenericMongoDbRepositoryPattern.Abstract;
 
 public interface IRepository<T>
 {
+    Task<bool> ExistsByIdAsync(string id, string type = "object");
+    IQueryable<T> GetAllQueryable();
+    Task<IQueryable<T>> GetAllQueryableAsync();
     IList<T> GetAll();
     Task<IList<T>> GetAllAsync();
     IList<T> FilterBy(Expression<Func<T, bool>> filter);
