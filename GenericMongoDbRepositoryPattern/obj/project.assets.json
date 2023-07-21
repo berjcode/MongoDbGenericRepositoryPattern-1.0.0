@@ -758,11 +758,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\abdbl\\OneDrive\\Masaüstü\\Microservice\\test\\GenericMongoDbRepositoryPattern\\GenericMongoDbRepositoryPattern.csproj",
+      "projectUniqueName": "C:\\Users\\abdbl\\OneDrive\\Masaüstü\\MongoDbGenericRepositoryPattern\\GenericMongoDbRepositoryPattern\\GenericMongoDbRepositoryPattern.csproj",
       "projectName": "MongoDbGenericRepositoryPattern",
-      "projectPath": "C:\\Users\\abdbl\\OneDrive\\Masaüstü\\Microservice\\test\\GenericMongoDbRepositoryPattern\\GenericMongoDbRepositoryPattern.csproj",
+      "projectPath": "C:\\Users\\abdbl\\OneDrive\\Masaüstü\\MongoDbGenericRepositoryPattern\\GenericMongoDbRepositoryPattern\\GenericMongoDbRepositoryPattern.csproj",
       "packagesPath": "C:\\Users\\abdbl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\abdbl\\OneDrive\\Masaüstü\\Microservice\\test\\GenericMongoDbRepositoryPattern\\obj\\",
+      "outputPath": "C:\\Users\\abdbl\\OneDrive\\Masaüstü\\MongoDbGenericRepositoryPattern\\GenericMongoDbRepositoryPattern\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

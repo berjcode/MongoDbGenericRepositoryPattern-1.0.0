@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MWpxgsg78cudTNXs54AwG8MGM+fExGpV8Bsk24O8/SHfmOk2kxBJFSOGPagqt728LXHogAdSmVdqrw8UN2tPPg==",
+  "dgSpecHash": "66UPl4VpmVWVQEdKKXsRAtomI/ayWTY07P8dcIYULtlGMU4Zepr4v1xFbGLdw+N4anOT5AYATNZ6bik9Q6ywdQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\abdbl\\OneDrive\\Masaüstü\\Microservice\\test\\GenericMongoDbRepositoryPattern\\GenericMongoDbRepositoryPattern.csproj",
+  "projectFilePath": "C:\\Users\\abdbl\\OneDrive\\Masaüstü\\MongoDbGenericRepositoryPattern\\GenericMongoDbRepositoryPattern\\GenericMongoDbRepositoryPattern.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\abdbl\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\abdbl\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
